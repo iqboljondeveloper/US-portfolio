@@ -5,20 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <header class="main-header">
-        <div class="container">
+    <!-- Header section -->
+    <header class="main-header site-header">
+        <div class="container ">
             <div class="main-header-brand">
-                <a class="site-logo-link" href="index.html">
-                    <img class="site-logo"  src="img/logo.png" alt="site logo" width="64px" >
+                <a href="index.html">
+                    <img src="img/logo.png" alt="site logo" width="64px" class="site-logo">
                 </a>
             </div>
             <ul class="site-header-list">
@@ -33,7 +32,7 @@
         </div>
     </header>
 
-
+    <!-- Main section -->
     <section class="main-section">
         <div class="container intro-section">
             <div class="intro-text">
@@ -88,26 +87,224 @@
         </div>
     </section>
 
-    <section class="services-section">
-        <h1>Mening xizmatlarim</h1>
-    </section>
+    <!-- About me section -->
+    <div class="container">
+        <section id="about-me" class="about-me">
+            <div class="about-me__image">
+                <img src="./img/about-me.png" alt="About me image">
+            </div>
+            <div class="about-me__info">
+                <h5 class="section-subtitle">
+                    Men haqimda
+                    <span class="blur-line"></span>
+                </h5>
+                <h3 class="section-title">
+                    Senior dasturchi
+                </h3>
+                <p class="about-me__description">
+                    Mening ismim Ulugbek va men 23 yoshdaman. 5 yildan ortiq vaqt mobaynida dasturchi bo'lib ishlab kelaman va hozirda Amerika kompaniyasida yuqori (senior) dasturchi bo'lib faoliyat yuritaman. Toshkent shahridagi Inha Universiteti bitiruvchisi hisoblanaman.
+                </p>
+                <a href="#" class="my-works">CV ni yuklab olish</a>
+            </div>
 
-    <section class="testimonial-section">
-        <h1> Mening mijozlarim</h1>
-    </section>
+        </section>
+        <div class="clearfix"></div>
+    </div>
+    <div class="container">
+        <section id="services" class="services">
+            <h5 class="section-subtitle">
+                Mening xizmatlarim
+                <span class="blur-line"></span>
+            </h5>
+            <h2 class="section-title">
+                Men taklif <br> qiladigan xizmatlar
+            </h2>
+            <div class="services__cards">
+                <div class="service-card">
+                    <img class="service-card__icon" src="./img/service-1.png" alt="Service 1">
+                    <h5 class="service-card__title">Veb dasturlash</h5>
+                    <p class="service-card__description">
+                        Savollaringizga to'liq javoblar va birinchi veb saytingizni yaratish uchun kerak bo'ladigan barcha resurslar
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Ko'proq
+                    </a>
+                </div>
 
+                <div class="service-card">
+                    <img class="service-card__icon" src="./img/service-2.png" alt="Service 1">
+                    <h5 class="service-card__title">Veb dasturlash</h5>
+                    <p class="service-card__description">
+                        Savollaringizga to'liq javoblar va birinchi veb saytingizni yaratish uchun kerak bo'ladigan barcha resurslar
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Ko'proq
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <img class="service-card__icon" src="./img/service-3.png" alt="Service 1">
+                    <h5 class="service-card__title">Veb dasturlash</h5>
+                    <p class="service-card__description">
+                        Savollaringizga to'liq javoblar va birinchi veb saytingizni yaratish uchun kerak bo'ladigan barcha resurslar
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Ko'proq
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Portfolio section -->
     <section class="portfolio-section">
-        <h1>Portfolio</h1>
+        <div class="container">
+            <h4 class="section-subtitle">MENING ISHLARIM
+                <span class="blur-line"></span>
+            </h4>
+            <h2 class="section-title">Mening Oxirgi Ishlarimni Ko'ring</h2>
+            <ul class="my-works-list">
+                <li class="my-works-item">HAMMASI</li>
+                <li class="my-works-item">ASOSIY</li>
+                <li class="my-works-item">OXIRGILAR</li>
+            </ul>
+            <div class="portfolio-items">
+                <div class="portfolio-item portfolio-item-1">
+                    <img src="./img/portfolio-1.jpg" alt="Portfolio image 1" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portolio item 1</a>
+                        </h4>
+                        <p>
+                            Ishlarim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item-2">
+                    <img src="./img/portfolio-2.jpg" alt="Portfolio image 2" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portolio item 2</a>
+                        </h4>
+                        <p>
+                            Ishlarim haqida
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-item portfolio-item-3">
+                    <img src="./img/portfolio-3.jpg" alt="Portfolio image 3" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4>
+                            <a href="#">Portolio item 3</a>
+                        </h4>
+                        <p>
+                            Ishlarim haqida
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section class="blog-section">
-        <h1>Blog</h1>
-    </section>
-  
+    <div class="container">
+        <section id="blog" class="blog">
+            <div class="section-subtitle">
+                Mening blogim
+                <span class="blur-line"></span>
+            </div>
+            <div class="section-title">
+                Oxirgi maqolalarim
+            </div>
+            <div class="blog-items">
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="./img/blog-1.jpg" alt="Blog 1 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Feb 5, 2021
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio recusandae temporibus voluptate asperiores velit ad dolorum assumenda molestias quaficiis dolor consequuntur!
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Learn more...
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="./img/blog-2.jpg" alt="Blog 1 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Feb 5, 2021
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus incidunt voluptatum tempora culpa exercitationem doloribus eos, similique ullam temporibus fugit hic iusto neque?
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Learn more...
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="./img/blog-3.jpg" alt="Blog 1 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Feb 5, 2021
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, obcaecati velit? Asperiores architecto vitae saepe voluptates magni temporibus laudantium sequi amet qui voluptatibus.
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Learn more...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- /Sheriklarim -->
     <section class="partners">
         <h1>Sheriklarim</h1>
     </section>
- 
+    <footer class="site-footer">
+
+    </footer>
 </body>
 
 </html>
